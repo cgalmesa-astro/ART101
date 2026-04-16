@@ -1,8 +1,13 @@
 p {
-    padding-top: 50px ;
+    /* padding-top: 50px ;
     padding-bottom: 50px ;
     padding-left: 50px;
-    color: red; font-size: x-large; background-color:darkslategray;
+    color: red; font-size: x-large; background-color:darkslategray; */
+    font-weight: bold;
+}
+
+p strong {
+    font-weight: normal;
 }
 
 li {
@@ -11,5 +16,27 @@ li {
 
 html {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     background-color: pink;
+     background-color: rgb(255, 126, 147);
     }
+
+/* span {
+    background-color: brown;
+} */
+
+/* select all html tags that have a class highlight */
+
+.highlight_01 {
+    background-color: crimson;
+}
+
+.highlight_02 {
+    background-color: rgb(255, 229, 229);
+}
+
+#red_text {
+    background-color: rgba(249, 2, 52, 0.612);
+}
+
+#big_duck {
+    width : 300px
+}
