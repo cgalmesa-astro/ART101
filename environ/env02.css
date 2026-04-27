@@ -1,0 +1,20 @@
+body {
+  background-image: url("microlensing_background.jpg");
+    color: aliceblue;
+    padding: 50px;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.567);
+    text-align: center;
+
+}
+#img_300 {
+    width : 200px
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
