@@ -17,6 +17,11 @@ p {
     width: 215px;
 }
 
+
+#img_100{
+    width: 100px;
+}
+
 img {
   display: block;
   margin: auto;
@@ -25,10 +30,26 @@ img {
 
 .main {
     display:flex;
+    justify-content: center;
     gap:inherit
 
 }
+
+.top {
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    display:flex;
+    gap:inherit
+}
+
 .planet {
 
     padding: 50px;
+}
+
+.or p{
+    margin-top: 150px;
+    background-color:rgba(0, 0, 0, 0.567) ;
+    font-size: x-large;
 }
