@@ -10,11 +10,25 @@ p {
 
 }
 #img_300 {
-    width : 200px
+    width: 200px;
+}
+
+#img_200{
+    width: 215px;
 }
 
 img {
   display: block;
   margin: auto;
   width: 50%;
+}
+
+.main {
+    display:flex;
+    gap:inherit
+
+}
+.planet {
+    align: center;
+    padding: 50px;
 }
