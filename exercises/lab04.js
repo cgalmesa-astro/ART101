@@ -1,26 +1,13 @@
 // variables
 
 let count = 0;
-let ObjectName = 'Mug';
-let IsUseful = true;
-let planets = 8;
-let color = 'black';
-let moods = ["sleepy", "nervous", "glowing", "dramatic"];
-
-let Alien = {
-    name  = 'Gleep Glorp',
-    species = 'greenidian',
-    limbs = 13,
-    needsWater = true
-};
-
-
 
 let buttonCreature = {
-    name: "Needy Button",
-    species: "interface creature",
-    favoriteFood: "clicks",
+    name: "Button man",
+    species: "goblin living in your screen",
+    favoriteFood: "attention",
     moods: ["sleepy", "nervous", "glowing", "dramatic", "hopeful", "confused"]
+
 };
 
 // function
@@ -33,7 +20,11 @@ $("#needy-button").click(function () {
 
     let currentMood = buttonCreature.moods[arrayPosition];
     
-    let message = "My current mood is " + currentMood;
+    let message = "<p>You clicked me " + count + " times.</p>";
+    message = message + "<p>My current mood is " + currentMood + ".</p>";
+    message = message + "<p>My name is " + buttonCreature.name + ".</p>";
+    message = message + "<p>I am a " + buttonCreature.species + ".</p>";
+    message = message + "<p>My favorite food is " + buttonCreature.favoriteFood + ".</p>";
 
     $("#output").html(message);
 
