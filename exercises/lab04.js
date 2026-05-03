@@ -1,6 +1,19 @@
 // variables
 
 let count = 0;
+let ObjectName = 'Mug';
+let IsUseful = true;
+let planets = 8;
+let color = 'black';
+let moods = ["sleepy", "nervous", "glowing", "dramatic"];
+
+let Alien = {
+    name  = 'Gleep Glorp',
+    species = 'greenidian',
+    limbs = 13,
+    needsWater = true
+};
+
 
 
 let buttonCreature = {
